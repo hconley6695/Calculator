@@ -10,12 +10,13 @@ num_one = document.querySelector('#num_one');
 num_two = document.querySelector('#num_two');
 calculateBtn = document.querySelector('#calculateBtn');
 answer = document.querySelector('#answer');
-
-function getAnswer(num_one, num_two, calculateBtn) {
-
+//change variable num_one and num_two to numbers not strings from html
+function add() {
+	add(num_one, num_two);
+	Number(num_one.value, num_two.value);
 }
 
-function tellAnswer(answer, calculateBtn) {
+function tellAnswer() {
 	return 
 
 }
