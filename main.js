@@ -14,18 +14,18 @@ answer = document.querySelector('#answer');
 function add() {
 	// Number(num_one.value, num_two.value);
 	/*add(num_one, num_two);*/
-	Number(num_one.value);
-	Number(num_two.value);
-	num_one + num_two = 
+	// Number(num_one.value);
+	// Number(num_two.value);
+	return (Number(num_one.value) + Number(num_two.value));
 
 }
 
 function tellAnswer() {
-	return 
+	answer.textContent = add();
 
 }
 
 
-//answer.addEventListener('click', tellAnswer);
+calculateBtn.addEventListener('click', tellAnswer);
 
 
