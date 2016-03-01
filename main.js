@@ -12,8 +12,12 @@ calculateBtn = document.querySelector('#calculateBtn');
 answer = document.querySelector('#answer');
 //change variable num_one and num_two to numbers not strings from html
 function add() {
-	add(num_one, num_two);
-	Number(num_one.value, num_two.value);
+	// Number(num_one.value, num_two.value);
+	/*add(num_one, num_two);*/
+	Number(num_one.value);
+	Number(num_two.value);
+	num_one + num_two = 
+
 }
 
 function tellAnswer() {
