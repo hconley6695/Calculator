@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif;
+	margin: 10px;
+	padding: 0;
+}
+
+h3 {
+	text-align: center;
+}
+
+.addition {
+	background: LemonChiffon;
+	height: 250px;
+	width: 180px;
+	border: 2px solid blue;
+	border: double;
+	/*padding-left: 10px;*/
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+#calculateBtn {
+	text-align: center;
+}
