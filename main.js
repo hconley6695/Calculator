@@ -1,0 +1,26 @@
+//declare var, 
+//will need elements, 
+//need two functions (to calculate) 
+//(second one to show the answer), 
+//click on a button -will use listener
+
+var num_one, num_two, calculateBtn, answer;
+
+num_one = document.querySelector('#num_one');
+num_two = document.querySelector('#num_two');
+calculateBtn = document.querySelector('#calculateBtn');
+answer = document.querySelector('#answer');
+
+function getAnswer(num_one, num_two, calculateBtn) {
+
+}
+
+function tellAnswer(answer, calculateBtn) {
+	return 
+
+}
+
+
+//answer.addEventListener('click', tellAnswer);
+
+
