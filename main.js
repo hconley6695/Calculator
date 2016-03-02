@@ -10,6 +10,8 @@ num_one = document.querySelector('#num_one');
 num_two = document.querySelector('#num_two');
 calculateBtn = document.querySelector('#calculateBtn');
 answer = document.querySelector('#answer');
+
+
 //change variable num_one and num_two to numbers not strings from html
 function add() {
 	// Number(num_one.value, num_two.value);
@@ -20,12 +22,9 @@ function add() {
 
 }
 
-function tellAnswer() {
+function addAnswer() {
 	answer.textContent = add();
-
 }
 
-
-calculateBtn.addEventListener('click', tellAnswer);
-
+calculateBtn.addEventListener('click', addAnswer);
 
